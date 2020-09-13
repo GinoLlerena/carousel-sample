@@ -1,0 +1,26 @@
+.carousel {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    width: 800px;
+    padding: 8px;
+}
+
+.legend {
+    transition: all .5s ease-in-out;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    opacity: .25;
+    transition: opacity .35s ease-in-out;
+}
