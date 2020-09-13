@@ -4,8 +4,9 @@
 }
 
 .item {
-    width: 800px;
+    width: 640px;
     padding: 8px;
+    position: relative;
 }
 
 .legend {
@@ -13,8 +14,8 @@
     position: absolute;
     bottom: 40px;
     left: 50%;
-    margin-left: -45%;
-    width: 90%;
+    margin-left: -260px;
+    width: 500px;
     border-radius: 10px;
     background: #000;
     color: #fff;

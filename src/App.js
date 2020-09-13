@@ -39,10 +39,10 @@ export default function App() {
     <div className="App">
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
+      <button type="button" className="btn btn-primary" onClick={goBack}>{'<<'}</button>
+      <button type="button" className="btn btn-secondary" onClick={goNext}>{'>>'}</button>
       <ReactResizeObserver onResize={(state) => setState(state)}>
         <div style={{display:'block', marginLeft: -8, overflow:'hidden'}}>
-          <button type="button" className="btn btn-primary" onClick={goBack}>{'<<'}</button>
-          <button type="button" className="btn btn-secondary" onClick={goNext}>{'>>'}</button>
           <Carousel component={Item} items={data} className='carousel' style={{transform: `translate3d(-${currentIndex*length}px, 0px, 0px)`}} />
         </div>
       </ReactResizeObserver>
